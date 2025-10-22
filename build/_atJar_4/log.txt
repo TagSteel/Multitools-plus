@@ -1,7 +1,7 @@
-Java Launcher: C:\Users\Thomas\.gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.16+8\bin\java.exe
-Arguments: '--inJar, C:\Users\Thomas\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.10\forge-1.20.1-47.4.10-injected.jar, --outJar, C:\Users\Thomas\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.10_mapped_official_1.20.1\forge-1.20.1-47.4.10_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\Thomas\IdeaProjects\ModTest\build\_atJar_4\parent_at.cfg'
+Java Launcher: /usr/local/sdkman/candidates/java/17.0.15-ms/bin/java
+Arguments: '--inJar, /home/codespace/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-injected.jar, --outJar, /home/codespace/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_official_1.20.1/forge-1.20.1-47.4.10_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, /workspaces/Multitools-plus/build/_atJar_4/parent_at.cfg'
 Classpath:
- - C:\Users\Thomas\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.1\accesstransformers-8.2.1-fatjar.jar
-Working directory: C:\Users\Thomas\IdeaProjects\ModTest\build\_atJar_4
+ - /home/codespace/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/8.2.1/accesstransformers-8.2.1-fatjar.jar
+Working directory: /workspaces/Multitools-plus/build/_atJar_4
 Main class: net.minecraftforge.accesstransformer.TransformerProcessor
 ====================================
