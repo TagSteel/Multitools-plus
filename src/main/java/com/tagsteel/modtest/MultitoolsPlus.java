@@ -10,7 +10,6 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -22,8 +21,8 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Modtest.MODID)
-public class Modtest {
+@Mod(MultitoolsPlus.MODID)
+public class MultitoolsPlus {
 
     // Define mod id in a common place for everything to reference
     public static final String MODID = "multitoolsplus";
@@ -55,7 +54,7 @@ public class Modtest {
                 output.accept(ULTIMATE_MULTITOOL.get());
             }).build());
 
-    public Modtest(FMLJavaModLoadingContext context) {
+    public MultitoolsPlus(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         // Register the commonSetup method for modloading
