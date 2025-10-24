@@ -145,9 +145,9 @@ Conflicting propagated mapping for com/tagsteel/modtest/BaseMultitoolItem/useOn(
 Conflicting propagated mapping for com/tagsteel/modtest/BaseMultitoolItem/interactLivingEntity(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/interactLivingEntity(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;: interactLivingEntity -> m_6880_
 Conflicting propagated mapping for com/tagsteel/modtest/AdvancedMultitoolItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for com/tagsteel/modtest/BasicMultitoolItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for com/tagsteel/modtest/UltimateMultitoolItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for com/tagsteel/modtest/AdvancedMultitoolItem/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z from com/tagsteel/modtest/BaseMultitoolItem/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z: isCorrectToolForDrops -> m_8096_
 Conflicting propagated mapping for com/tagsteel/modtest/BasicMultitoolItem/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z from com/tagsteel/modtest/BaseMultitoolItem/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z: isCorrectToolForDrops -> m_8096_
-Conflicting propagated mapping for com/tagsteel/modtest/UltimateMultitoolItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for com/tagsteel/modtest/UltimateMultitoolItem/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z from com/tagsteel/modtest/BaseMultitoolItem/isCorrectToolForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z: isCorrectToolForDrops -> m_8096_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
@@ -176,10 +176,10 @@ Writing Output: C:\Users\Thomas\IdeaProjects\Multitools-plus\build\reobfJar\outp
   com/tagsteel/modtest/BaseMultitoolItem.class
   com/tagsteel/modtest/BasicMultitoolItem$1.class
   com/tagsteel/modtest/BasicMultitoolItem.class
-  com/tagsteel/modtest/Modtest$ClientModEvents.class
-  com/tagsteel/modtest/Modtest.class
   com/tagsteel/modtest/MultiToolEventHandler.class
   com/tagsteel/modtest/MultitoolsConfig.class
+  com/tagsteel/modtest/MultitoolsPlus$ClientModEvents.class
+  com/tagsteel/modtest/MultitoolsPlus.class
   com/tagsteel/modtest/UltimateMultitoolItem$1.class
   com/tagsteel/modtest/UltimateMultitoolItem.class
   data/

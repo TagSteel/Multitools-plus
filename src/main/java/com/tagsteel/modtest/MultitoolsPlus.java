@@ -47,6 +47,7 @@ public class MultitoolsPlus {
     public static final RegistryObject<CreativeModeTab> MULTITOOLS_TAB = CREATIVE_MODE_TABS.register("multitools_tab",
         () -> CreativeModeTab.builder()
             .withTabsBefore(CreativeModeTabs.TOOLS_AND_UTILITIES)
+            .title(net.minecraft.network.chat.Component.translatable("itemGroup.multitoolsplus.multitools_tab"))
             .icon(() -> ADVANCED_MULTITOOL.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(BASIC_MULTITOOL.get());

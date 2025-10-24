@@ -189,3 +189,31 @@ tasks.named('jar', Jar).configure {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
+
+// Tâche personnalisée pour copier le JAR sur le bureau après le build
+tasks.register('copyJarToDesktop', Copy) {
+    description = 'Copie le fichier JAR généré sur le bureau'
+    group = 'build'
+
+    dependsOn 'reobfJar'
+
+    from(layout.buildDirectory.dir("reobfJar"))
+    include '*.jar'
+    into(System.getProperty("user.home") + "/Desktop")
+
+    rename { fileName ->
+        // Renomme le fichier pour inclure la date/heure
+        def baseName = fileName.replace('.jar', '')
+        "${baseName}_${new Date().format('yyyy-MM-dd_HH-mm')}.jar"
+    }
+
+    doLast {
+        println "JAR copié sur le bureau: ${destinationDir}"
+    }
+}
+
+// Configure le build pour automatiquement copier sur le bureau
+tasks.named('build').configure {
+    finalizedBy 'copyJarToDesktop'
+}
+
