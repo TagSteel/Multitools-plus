@@ -165,7 +165,7 @@ Fichiers nécessaires (16x16 pixels) :
 - `advanced_multitool.png`
 - `ultimate_multitool.png`
 
-Consultez `TEXTURE_GUIDE.md` pour plus de détails sur la création des textures.
+Consultez [TEXTURE_GUIDE_FR.md](TEXTURE_GUIDE_FR.md) pour plus de détails sur la création des textures.
 
 ## 🤝 Contribution
 

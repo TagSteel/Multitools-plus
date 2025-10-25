@@ -1,49 +1,48 @@
-# Instructions pour créer vos textures
+# Instructions for creating your textures
 
-## Emplacement des fichiers PNG :
+## PNG files location:
 C:\Users\Thomas\IdeaProjects\ModTest\src\main\resources\assets\multitoolsplus\textures\item\
 
-## Fichiers nécessaires (16x16 pixels chacun) :
+## Required files (16x16 pixels each):
 1. basic_multitool.png
 2. advanced_multitool.png
 3. ultimate_multitool.png
 
-## Conseils de design :
+## Design tips:
 
-### Basic MultiTool (Fer + Redstone)
-- Base : Gris métallique (couleur fer)
-- Accents : Bleu clair ou rouge (redstone)
-- Style : Simple, fonctionnel
-- Inspiration : Combiner visuellement une pioche + hache + pelle en fer
+### Basic MultiTool (Iron + Redstone)
+- Base: Metallic gray (iron color)
+- Accents: Light blue or red (redstone)
+- Style: Simple, functional
+- Inspiration: Visually combine a pickaxe + axe + shovel in iron
 
-### Advanced MultiTool (Diamant)
-- Base : Cyan/turquoise (couleur diamant)
-- Accents : Violet/améthyste
-- Style : Plus raffiné, avec des détails
-- Inspiration : Combiner outils en diamant avec un aspect "high-tech"
+### Advanced MultiTool (Diamond)
+- Base: Cyan/turquoise (diamond color)
+- Accents: Purple/amethyst
+- Style: More refined, with details
+- Inspiration: Combine diamond tools with a "high-tech" look
 
-### Ultimate MultiTool (Netherite + Enchantements)
-- Base : Gris foncé/noir (netherite)
-- Accents : Doré/jaune brillant (enchantements)
-- Style : Épique, mystique
-- Inspiration : Netherite avec effet d'enchantement violet/doré
+### Ultimate MultiTool (Netherite + Enchantments)
+- Base: Dark gray/black (netherite)
+- Accents: Gold/yellow sheen (enchantments)
+- Style: Epic, mystical
+- Inspiration: Netherite with purple/golden enchantment effect
 
-## Outils recommandés :
-- Piskel (https://www.piskelapp.com/) - Éditeur en ligne gratuit
-- Paint.NET - Pour Windows
-- GIMP - Gratuit, multiplateforme
-- Blockbench - Spécialisé Minecraft
+## Recommended tools:
+- Piskel (https://www.piskelapp.com/) - Free online editor
+- Paint.NET - For Windows
+- GIMP - Free, cross-platform
+- Blockbench - Minecraft-focused
 
-## Alternative rapide :
-Pour tester rapidement, vous pouvez :
-1. Copier les textures vanilla des outils Minecraft
-2. Les modifier légèrement (changer couleurs)
-3. Les renommer et placer dans le dossier item/
+## Quick alternative:
+To test quickly, you can:
+1. Copy the vanilla Minecraft tool textures
+2. Slightly modify them (change colors)
+3. Rename them and place them in the item/ folder
 
-## Ressources utiles :
-- Palette de couleurs Minecraft : https://minecraft.tools/en/color.php
-- Templates d'items : https://www.planetminecraft.com/resources/
-- Nova Skin Editor : https://minecraft.novaskin.me/resourcepacks
+## Useful resources:
+- Minecraft color palette: https://minecraft.tools/en/color.php
+- Item templates: https://www.planetminecraft.com/resources/
+- Nova Skin Editor: https://minecraft.novaskin.me/resourcepacks
 
-Une fois les PNG créés, relancez simplement le mod et les textures apparaîtront automatiquement !
-
+Once the PNGs are created, just relaunch the mod and the textures will appear automatically!
