@@ -4,13 +4,6 @@ build/
 out/
 classes/
 
-# Eclipse
-*.launch
-.settings/
-.metadata
-.classpath
-.project
-
 # IntelliJ IDEA
 .idea/
 *.iml
@@ -19,9 +12,6 @@ classes/
 
 # Visual Studio Code
 .vscode/
-
-# MacOS
-.DS_Store
 
 # Minecraft / Forge
 run/
@@ -32,7 +22,6 @@ crash-reports/
 *.log
 *.ctxt
 .mtj.tmp/
-*.jar
 *.war
 *.nar
 *.ear
@@ -40,3 +29,9 @@ crash-reports/
 *.tar.gz
 *.rar
 hs_err_pid*
+
+# Ignore built JARs but keep Gradle wrapper
+build/libs/*.jar
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
