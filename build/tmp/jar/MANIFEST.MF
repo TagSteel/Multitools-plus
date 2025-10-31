@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: multitoolsplus
-Specification-Vendor: TagSteel
-Specification-Version: 1
-Implementation-Title: modtest
-Implementation-Version: 1.0-SNAPSHOT
-Implementation-Vendor: TagSteel
-Implementation-Timestamp: 2025-10-25T16:33:43+0200
-
