@@ -1,7 +1,7 @@
 # Instructions pour créer vos textures
 
 ## Emplacement des fichiers PNG :
-C:\Users\Thomas\IdeaProjects\ModTest\src\main\resources\assets\multitoolsplus\textures\item\
+src\main\resources\assets\multitoolsplus\textures\item\
 
 ## Fichiers nécessaires (16x16 pixels chacun) :
 1. basic_multitool.png
